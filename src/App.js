@@ -51,7 +51,7 @@ function App() {
             <option value="aac">American</option>
             <option value="acc">ACC</option>
             <option value="bigtwelve">Big 12</option>
-            <option value="big-10">Big Ten</option>
+            <option value="bigten">Big Ten</option>
             <option value="cusa">Conference USA</option>
             <option value="mac">Mid American</option>
             <option value="mwc">Mountain West</option>
@@ -120,7 +120,7 @@ function App() {
               <img
                 src={`/logos/${game.conference}.png`}
                 alt={`${game.conference} logo`}
-                className="absolute bottom-2 right-2 w-auto h-auto max-w-10 max-h-10 opacity-80 object-contain"
+                className="absolute bottom-2 right-2 w-auto h-auto max-w-12 max-h-12 opacity-100 object-contain"
               />
             </div>
           </div>
