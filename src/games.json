@@ -80,7 +80,7 @@
 {"id": 79, "team1": "Ball State", "location": "at", "team2": "Auburn", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 80, "team1": "South Florida", "location": "at", "team2": "Florida", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 81, "team1": "Austin Peay", "location": "at", "team2": "Georgia", "date": "2025-09-06T00:00:00", "conference": "none"},
-{"id": 82, "team1": "Ole Miss", "location": "at", "team2": "Kentucky", "date": "2025-09-06T00:00:00", "conference": "none"},
+{"id": 82, "team1": "Ole Miss", "location": "at", "team2": "Kentucky", "date": "2025-09-06T00:00:00", "conference": "sec"},
 {"id": 83, "team1": "Louisiana Tech", "location": "at", "team2": "LSU", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 84, "team1": "Arizona State", "location": "at", "team2": "Mississippi State", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 85, "team1": "Kansas", "location": "at", "team2": "Missouri", "date": "2025-09-06T00:00:00", "conference": "none"},
@@ -136,7 +136,7 @@
 {"id": 135, "team1": "Tulsa", "location": "at", "team2": "New Mexico State", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 136, "team1": "Sam Houston", "location": "at", "team2": "Hawai'i", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 137, "team1": "UT Martin", "location": "at", "team2": "UTEP", "date": "2025-09-06T00:00:00", "conference": "none"},
-{"id": 138, "team1": "Western Kentucky", "location": "at", "team2": "Toledo", "date": "2025-09-06T00:00:00", "conference": "none"},
+{"id": 138, "team1": "WKU", "location": "at", "team2": "Toledo", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 139, "team1": "Eastern Washington", "location": "at", "team2": "Boise State", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 140, "team1": "Northern Colorado", "location": "at", "team2": "Colorado State", "date": "2025-09-06T00:00:00", "conference": "none"},
 {"id": 141, "team1": "Sacramento State", "location": "at", "team2": "Nevada", "date": "2025-09-06T00:00:00", "conference": "none"},
@@ -264,13 +264,13 @@
 {"id": 263, "team1": "Ball State", "location": "at", "team2": "UConn", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 264, "team1": "Delaware", "location": "at", "team2": "FIU", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 265, "team1": "Murray State", "location": "at", "team2": "Jacksonville State", "date": "2025-09-20T00:00:00", "conference": "none"},
-{"id": 266, "team1": "Arkansas State", "location": "at", "team2": "Kennesaw State", "date": "2025-09-20T00:00:00", "conference": "none"},
+{"id": 266, "team1": "Arkansas State", "location": "at", "team2": "Kennesaw State", "date": "2025-09-20T00:00:00", "conference": "cusa"},
 {"id": 267, "team1": "James Madison", "location": "at", "team2": "Liberty", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 268, "team1": "Southern Miss", "location": "at", "team2": "Louisiana Tech", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 269, "team1": "Marshall", "location": "at", "team2": "Middle Tennessee", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 270, "team1": "UT Martin", "location": "at", "team2": "Missouri State", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 271, "team1": "ULM", "location": "at", "team2": "UTEP", "date": "2025-09-20T00:00:00", "conference": "none"},
-{"id": 272, "team1": "Nevada", "location": "at", "team2": "Western Kentucky", "date": "2025-09-20T00:00:00", "conference": "none"},
+{"id": 272, "team1": "Nevada", "location": "at", "team2": "WKU", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 273, "team1": "Boise State", "location": "at", "team2": "Air Force", "date": "2025-09-20T00:00:00", "conference": "mwc"},
 {"id": 274, "team1": "UTSA", "location": "at", "team2": "Colorado State", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 275, "team1": "Fresno State", "location": "at", "team2": "Hawai'i", "date": "2025-09-20T00:00:00", "conference": "mwc"},
@@ -287,7 +287,12 @@
 {"id": 286, "team1": "Toledo", "location": "at", "team2": "Western Michigan", "date": "2025-09-20T00:00:00", "conference": "mac"},
 {"id": 287, "team1": "Duquesne", "location": "at", "team2": "Akron", "date": "2025-09-20T00:00:00", "conference": "none"},
 {"id": 288, "team1": "Wagner", "location": "at", "team2": "Central Michigan", "date": "2025-09-20T00:00:00", "conference": "none"},
-{"id": 289, "team1": "Gardner-Webb", "location": "at", "team2": "Ohio", "date": "2025-09-20T00:00:00", "conference": "none"}
+{"id": 289, "team1": "Gardner-Webb", "location": "at", "team2": "Ohio", "date": "2025-09-20T00:00:00", "conference": "none"},
+{"id": 290, "team1": "Army", "location": "at", "team2": "East Carolina", "date": "2025-09-25T00:00:00", "conference": "aac"},
+{"id": 291, "team1": "Florida State", "location": "at", "team2": "Virginia", "date": "2025-09-26T00:00:00", "conference": "acc"},
+{"id": 292, "team1": "TCU", "location": "at", "team2": "Arizona State", "date": "2025-09-26T00:00:00", "conference": "bigtwelve"}
+
+
 
 
 

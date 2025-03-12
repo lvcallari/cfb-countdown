@@ -71,11 +71,14 @@ function App() {
             className="p-2 border border-gray-300 rounded-md"
           >
             <option value="all">All Teams</option>
-            {teams.map((team, index) => (
-              <option key={index} value={team}>{team}</option>
-            ))}
+            {[...new Set(teams)] // Remove duplicates
+              .sort((a, b) => a.localeCompare(b)) // Sort alphabetically
+              .map((team, index) => (
+                <option key={index} value={team}>{team}</option>
+              ))}
           </select>
         </div>
+
       </div>
 
       {/* Display filtered games in a responsive grid */}
@@ -120,7 +123,7 @@ function App() {
               <img
                 src={`/logos/${game.conference}.png`}
                 alt={`${game.conference} logo`}
-                className="absolute bottom-2 right-2 w-auto h-auto max-w-12 max-h-12 opacity-100 object-contain"
+                className="absolute bottom-2 right-2 w-auto h-auto max-w-10 max-h-10 opacity-100 object-contain"
               />
             </div>
           </div>
