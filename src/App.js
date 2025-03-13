@@ -33,7 +33,40 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-4"> {/* Main container */}
-      <h1 className="text-4xl font-bold text-center mb-6">CFB Countdown 2025</h1>
+      {/*<h1 className="text-4xl font-bold text-center mb-6"><u>CFB Countdown 2025</u></h1>*/}
+      <div className="container relative text-center w-full mx-auto">
+        <img
+          src={`/logos/natty25.png`}
+          alt="natty 25 logo"
+          className="absolute top-2 left-2 w-auto h-auto max-w-19 max-h-20 opacity-100 object-contain"
+        />
+        <h1 className="text-4xl top-2 mid-2 font-bold vertical-auto mb-6"><u>CFB Countdown 2025-26</u></h1>
+        <img
+          src={`/logos/natty.png`}
+          alt="natty logo"
+          className="absolute top-2 right-2 w-auto h-auto max-w-19 max-h-20 opacity-100 object-contain"
+        />
+      </div>
+
+      <div className="container relative text-center w-full mx-auto">
+        
+        <div className="flex justify-center space-x-2 mt-4">
+          <img src="/logos/teams/Central Michigan.png" alt="CMU" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Oregon.png" alt="ORE" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Miami.png" alt="MIA" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Nebraska.png" alt="NEB" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Tennessee.png" alt="TEN" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Duke.png" alt="DUK" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Ohio State.png" alt="OSU" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Washington.png" alt="UW" className="w-10 h-10 object-contain" />
+          <img src="/logos/teams/Navy.png" alt="NAV" className="w-10 h-10 object-contain" />
+
+        </div>
+        
+      </div>
+
+      
+
       
       {/* Dropdown filters for conference and team selection */}
       <div className="flex space-x-4 mb-6">
