@@ -35,6 +35,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 p-4"> {/* Main container */}
       {/*<h1 className="text-4xl font-bold text-center mb-6"><u>CFB Countdown 2025</u></h1>*/}
       <div className="container relative text-center w-full mx-auto">
+        {/* Header images */}
         <img
           src={`/logos/natty25.png`}
           alt="natty 25 logo"
@@ -49,7 +50,7 @@ function App() {
       </div>
 
       <div className="container relative text-center w-full mx-auto">
-        
+        {/*Fun countdown text with logos*/}
         <div className="flex justify-center space-x-2 mt-4">
           <img src="/logos/teams/Central Michigan.png" alt="CMU" className="w-10 h-10 object-contain" />
           <img src="/logos/teams/Oregon.png" alt="ORE" className="w-10 h-10 object-contain" />
@@ -117,7 +118,7 @@ function App() {
       {/* Display filtered games in a responsive grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"> 
         {filteredGames.map((game) => (
-          <div key={game.id} className="bg-white shadow-md rounded-lg p-4"> {/* Individual game card */}
+          <div key={game.id} className="bg-white shadow-md rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 group">
             <h2 className="text-2xl font-semibold flex flex-wrap items-center text-center">
               {/* Team 1 */}
               <span className="inline-block flex items-center">
@@ -158,6 +159,14 @@ function App() {
                 alt={`${game.conference} logo`}
                 className="absolute bottom-2 right-2 w-auto h-auto max-w-10 max-h-10 opacity-100 object-contain"
               />
+            </div>
+
+            {/* Hidden info that shows on hover */}
+            <div className="mt-2 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-40 transition-all duration-300 overflow-hidden">
+              <div className="flex justify-between text-sm">
+              <p className="text-sm text-gray-600">Broadcast: {game.broadcast || "TBD"}</p>
+              <p className="text-sm text-gray-600">Line: {game.line || "Unknown"}</p>
+              </div>
             </div>
           </div>
         ))}
